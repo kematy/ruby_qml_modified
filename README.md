@@ -50,7 +50,8 @@ The Qt installation path (`$HOME/Qt/5.4/clang_64` in this example) depends on yo
 ### General (OSX and Linux)
 
     $ gem install qml
-
+windows 本地安装需要有安装好qt mingw版本,并将qmake.exe的路径添加到Path,
+然后执行，gem install -l qml-1.0.2.gem -- --with-qmake=F:/Qt_mingw/bin/qmake.exe
 #### Options
 
 * `--with-qmake=[dir]`
